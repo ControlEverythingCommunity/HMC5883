@@ -62,4 +62,17 @@ Verify and flash the code on your Photon. Code output is shown in logs at dashbo
 
 https://dashboard.particle.io/user/logs
 
+
+## C
+
+Download (or git pull) the code in Beaglebone Black.
+
+Compile the c program.
+
+$>gcc HMC5883.c -o HMC5883
+
+Run the c program.
+
+$>./HMC5883
+
 #####The code output is raw value of magnetic field in X, Y and Z axis.
