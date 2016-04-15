@@ -68,11 +68,11 @@ https://dashboard.particle.io/user/logs
 Download (or git pull) the code in Beaglebone Black.
 
 Compile the c program.
-
+```cpp
 $>gcc HMC5883.c -o HMC5883
-
+```
 Run the c program.
-
+```cpp
 $>./HMC5883
-
+```
 #####The code output is raw value of magnetic field in X, Y and Z axis.
