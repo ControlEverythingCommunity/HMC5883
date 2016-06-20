@@ -89,7 +89,9 @@ void loop()
     
     // Output data to dashboard
     Particle.publish("Magnetic Field in X-Axis : ", String(xMag));
+    delay(1000);
     Particle.publish("Magnetic Field in Y-Axis : ", String(yMag));
+    delay(1000);
     Particle.publish("Magnetic Field in Z-Axis : ", String(zMag));
     delay(1000);
 }
